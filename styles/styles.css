@@ -1,0 +1,182 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/Sprint2/Sprint2/html/img/doctorheader.jpg');
+    background-repeat: no-repeat ;
+    background-size: contain;
+    background-color: rgb(234, 243, 253);
+    /*background: linear-gradient( rgb(78, 78, 78),rgb(255, 255, 255));*/
+    margin: 0;
+    
+    
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 1px 22px rgb(95, 95, 95);
+    color: black;
+  }
+  li i{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.headermain{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: none;
+    width: 1000px;
+    height: 400px;
+}
+
+.textmainheader{
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-right: 110px;
+    margin-left: 110px;
+    text-align: center;
+    background-color: none;
+    
+}
+.textmainheader h1{
+  animation: ease-in animat 0.4s;
+  font-size: 32;
+}
+
+.textmainheader p{
+  animation: ease-in animat 0.6s;
+  
+}
+
+.headermain img{
+    max-width: 50%;
+    max-height: 90%;
+    animation: ease-in animat 0.8s;
+}
+
+@keyframes animat{
+  0%{
+      transform: scale(0);
+  }100%{
+      transform: scale(1);
+  }
+}
+.firstsection{
+  margin-top: 10px;
+  margin-bottom: 150px;
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 700px;
+  text-align: center;
+
+}
+
+.textfirstsection{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-right: 110px;
+    margin-left: 110px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    
+}
+
+.textsecond{
+  margin-top: 70px;
+  margin-bottom: 80px;
+  margin-right: 110px;
+  margin-left: 110px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+.thirdtext{
+  margin-top: 70px;
+  margin-bottom: 80px;
+  margin-right: 110px;
+  margin-left: 110px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+
+footer{
+  background: rgb(196, 196, 196);
+  padding: 60px 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.more a{
+  display: list-item;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  line-height: 1.4;
+
+}
+.more2 a{
+  display: list-item;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  color: grey;
+  line-height: 1.4;
+}
+
+.contacticons i{
+  margin-top: 20px;
+  font-size: 30px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(2, 2, 2);
+  border-radius: 55%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  transition: all ease-in-out .3s;
+  margin-right: 5px;
+  color: black; 
+}
+
+.contacticons i:hover{
+  color: white;
+  background-color: black;
+  border-color: white ;
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
